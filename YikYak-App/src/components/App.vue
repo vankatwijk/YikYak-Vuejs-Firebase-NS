@@ -6,9 +6,9 @@
                  android:tabTextColor="#c4ffdf"
                  android:selectedTabTextColor="#ffffff"
                  androidSelectedTabHighlightColor="#ffffff">
-            <TabViewItem title="Tab 1">
+            <TabViewItem title="Feed">
                 <GridLayout columns="*" rows="*">
-                    <Label class="message" :text="msg" col="0" row="0"/>
+                    <List/>
                 </GridLayout>
             </TabViewItem>
             <TabViewItem title="Add Post">
@@ -16,7 +16,7 @@
                     <Post/>
                 </GridLayout>
             </TabViewItem>
-            <TabViewItem title="Tab 3">
+            <TabViewItem title="Feathers">
                 <GridLayout columns="*" rows="*">
                     <Label class="message" text="Tab 3 Content" col="0" row="0"/>
                 </GridLayout>
@@ -28,14 +28,15 @@
 <script >
 
   import Post from './Post'
+  import List from './List'
 
   export default {
     components:{
-        Post
+        Post,
+        List
     },
     data() {
       return {
-        msg: 'Hello World!'
       }
     }
   }

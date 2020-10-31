@@ -1,6 +1,10 @@
 import Vue from 'nativescript-vue'
 import App from './components/App'
 import VueDevtools from 'nativescript-vue-devtools'
+import RadListView from 'nativescript-ui-listview/vue';
+
+Vue.use(RadListView);
+
 
 if(TNS_ENV !== 'production') {
   Vue.use(VueDevtools)
