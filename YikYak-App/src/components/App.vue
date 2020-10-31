@@ -1,7 +1,8 @@
 <template>
     <Page>
-        <ActionBar title="Welcome to NativeScript-Vue!" android:flat="true"/>
-        <TabView android:tabBackgroundColor="#53ba82"
+        <ActionBar title="YikYak" android:flat="true"/>
+        <TabView androidTabsPosition="bottom"
+                 android:tabBackgroundColor="#53ba82"
                  android:tabTextColor="#c4ffdf"
                  android:selectedTabTextColor="#ffffff"
                  androidSelectedTabHighlightColor="#ffffff">
@@ -10,9 +11,9 @@
                     <Label class="message" :text="msg" col="0" row="0"/>
                 </GridLayout>
             </TabViewItem>
-            <TabViewItem title="Tab 2">
+            <TabViewItem title="Add Post">
                 <GridLayout columns="*" rows="*">
-                    <Label class="message" text="Tab 2 Content" col="0" row="0"/>
+                    <Post/>
                 </GridLayout>
             </TabViewItem>
             <TabViewItem title="Tab 3">
@@ -25,7 +26,13 @@
 </template>
 
 <script >
+
+  import Post from './Post'
+
   export default {
+    components:{
+        Post
+    },
     data() {
       return {
         msg: 'Hello World!'
