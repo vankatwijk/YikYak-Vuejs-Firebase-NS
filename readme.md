@@ -1,6 +1,6 @@
 # Project Title
 
-YikYak clone
+parrot clone
 
 # Project Description
 

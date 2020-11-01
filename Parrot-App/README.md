@@ -1,4 +1,4 @@
-# yikyak
+# parrot
 
 > Geolocation social media app
 

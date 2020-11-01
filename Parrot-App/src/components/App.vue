@@ -1,6 +1,6 @@
 <template>
     <Page>
-        <ActionBar title="YikYak" android:flat="true"/>
+        <ActionBar title="parrot" android:flat="true"/>
         <TabView androidTabsPosition="bottom"
                  android:tabBackgroundColor="#53ba82"
                  android:tabTextColor="#c4ffdf"

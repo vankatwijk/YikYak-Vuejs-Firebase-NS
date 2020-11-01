@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core'
 
 export default {
-  id: 'com.hpvk.yikyak',
+  id: 'com.hpvk.parrot',
   appPath: 'src',
   appResourcesPath: 'App_Resources',
   android: {
