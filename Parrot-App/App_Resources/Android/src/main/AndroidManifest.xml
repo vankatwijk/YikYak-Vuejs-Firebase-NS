@@ -19,7 +19,10 @@
 		android:allowBackup="true"
 		android:icon="@drawable/icon"
 		android:label="@string/app_name"
-		android:theme="@style/AppTheme">
+		android:theme="@style/AppTheme">  
+		<!-- this line needs to be added (replace the value!) -->
+  		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-8164107170659778~8815883194" />
+
 
 		<activity
 			android:name="com.tns.NativeScriptActivity"

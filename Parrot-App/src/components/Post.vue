@@ -18,8 +18,6 @@
     const httpModule = require("http");
     const appSettings = require("tns-core-modules/application-settings");
 
-    import { inappmessaging } from "nativescript-plugin-firebase/inappmessaging";
-
     export default {
         watch: {},
         created() {
